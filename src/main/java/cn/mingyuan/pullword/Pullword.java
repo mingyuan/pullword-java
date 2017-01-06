@@ -26,7 +26,7 @@ public class Pullword {
     private static final String BASE_URL_GET = "http://api.pullword.com/get.php";
     private static final String BASE_URL_POST = "http://api.pullword.com/post.php";
 
-    static class Result {
+    public static class Result {
         public String keyword;
         public double probability;
 
